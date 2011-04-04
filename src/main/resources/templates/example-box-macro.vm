@@ -1,0 +1,9 @@
+#requireResource("com.adaptavist.tutorial.js-event-example:main-resource")
+#requireResourcesForContext("adaptavist.example-box")
+<div class="example-box hidden">
+    <div class="box-head">
+        <span class="box-title">$!title</span>
+        <span class="box-controls"></span>
+    </div>
+    <div class="box-body">$!body</div>
+</div>

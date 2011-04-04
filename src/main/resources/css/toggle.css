@@ -1,0 +1,9 @@
+.box-toggle  {
+    background-position: -64px -192px;
+}
+.box-collapsed .box-toggle {
+    background-position: -48px -192px;
+}
+.box-collapsed .box-body {
+    display: none;
+}

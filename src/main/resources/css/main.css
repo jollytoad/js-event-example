@@ -1,0 +1,25 @@
+.example-box {
+    margin: 1em;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    width: 15em;
+}
+.box-head {
+    background-color: #aaa;
+    padding: 2px;
+    overflow: hidden;
+}
+.box-controls span {
+    background-image: url(image/ui-icons_222222_256x240.png);
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: right;
+}
+.box-title {
+    margin: 0 4px;
+    font-weight: bold;
+    float: left;
+}

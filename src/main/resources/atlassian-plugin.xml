@@ -1,0 +1,34 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+    </plugin-info>
+
+    <web-resource key="main-resource" name="Main Resources">
+        <resource type="download" name="main.js" location="js/main.js"/>
+        <resource type="download" name="main.css" location="css/main.css"/>
+        <resource type="download" name="image/" location="css/image/"/>
+    </web-resource>
+
+    <web-resource key="fade-in-resource" name="Fade-In Extension">
+        <context>adaptavist.example-box</context>
+        <resource type="download" name="fade-in.js" location="js/fade-in.js"/>
+    </web-resource>
+
+    <web-resource key="toggle-resource" name="Toggle Extension">
+        <context>adaptavist.example-box</context>
+        <resource type="download" name="toggle.js" location="js/toggle.js"/>
+        <resource type="download" name="toggle.css" location="css/toggle.css"/>
+    </web-resource>
+
+    <web-resource key="toggle-animate-resource" name="Toggle Animation Extension">
+        <context>adaptavist.example-box</context>
+        <resource type="download" name="toggle-animate.js" location="js/toggle-animate.js"/>
+    </web-resource>
+
+    <macro name="example-box" class="com.adaptavist.tutorial.ExampleBoxMacro" key="example-box">
+    <!-- TODO: Add macro description -->
+    <!-- <description></description> -->
+    </macro>
+</atlassian-plugin>
